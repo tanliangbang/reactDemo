@@ -1,0 +1,108 @@
+@import "../../style/var.scss";
+
+.navbar{
+    width:100%;
+    z-index:1000;
+    margin-bottom: 0px;
+    border:none;
+    background:#fff;
+    background-size:100% 100%;
+    border-bottom: solid 2px #e1e1e1;
+    >div:nth-child(1){
+        height:175px;
+        >div:nth-child(1){
+            font-size:30px;
+            text-align: right;
+            padding-top:30px;
+            padding-right:80px;
+        }
+        >div:nth-child(2){
+            font-size:22px;
+            line-height:100px;
+            padding-left:80px;
+        }
+    }
+    >div:nth-child(2){
+        height:50px;
+        background:#FE8432;
+    }
+
+}
+
+.footer{
+    padding:50px 0px;
+    text-align: center;
+}
+
+.nav{
+    .active{
+        color:blue !important;
+    }
+    background:#FE8432;
+    a{
+        color:#fff;
+        cursor: pointer;
+    }
+    a:hover{
+        color:blue;
+        text-decoration: none;
+    }
+    ul{
+        padding-left:150px;
+        li{
+            float:left;
+            height:50px;
+            line-height:50px;
+            font-size:16px;
+            cursor: pointer;
+            margin-right:80px;
+        }
+    }
+    >div{
+        float:right;
+        font-size:16px;
+        color:#fff;
+        line-height:50px;
+        >a{
+            color:#fff;
+        }
+        margin-right:100px;
+        a:hover{
+            color:blue;
+            text-decoration: none;
+        }
+    }
+}
+
+.UserCenterLeft{
+    float:left;
+    width:250px;
+
+    .userAvar{
+        margin:25px 50px;
+        text-align: right;
+        img{
+            width:150px;
+            height:150px;
+        }
+    }
+    ul{
+        width:150px;
+        margin:10px 50px;
+        text-align: right;
+        >li{
+            line-height:35px;
+            border-bottom:1px solid #eeeeee;
+            margin:10px 0px;
+            padding-right:10px;
+            a{
+                padding-right:20px;
+            }
+        }
+    }
+    .active{
+        background:#FE8432;
+        display:block;
+        color:#fff;
+    }
+}
